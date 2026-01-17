@@ -1489,6 +1489,10 @@ class ListPage {
 			wrpBtnShowSearch.hideVe();
 			btnHideSearch.showVe();
 		});
+
+		eleWrpList.hideVe();
+		wrpBtnShowSearch.showVe();
+		btnHideSearch.hideVe();
 	}
 
 	_renderListFeelingLucky ({isCompact, btnReset, isScrollablePage = false}) {
